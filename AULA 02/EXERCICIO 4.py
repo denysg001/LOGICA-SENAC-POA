@@ -145,3 +145,5 @@ PERIMETRO = (2 * pi) * R_FIGURA_7
 print("\nA Area da Circunferência é:",AREA)
 print("O Diâmetro é:",DIAMETRO)
 print("O Perímetro é:",PERIMETRO)
+
+print("\nFIM!")
