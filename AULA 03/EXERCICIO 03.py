@@ -16,7 +16,7 @@ X1 = X
 Y1 = Y
 
 print("\nVocê definiu o valor de X como",+X)
-print("Você definiu o valor de X como",+Y)
+print("Você definiu o valor de Y como",+Y)
 
 X = Y1
 Y = X1
