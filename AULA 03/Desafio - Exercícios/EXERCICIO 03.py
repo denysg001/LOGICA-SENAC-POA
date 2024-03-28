@@ -7,4 +7,5 @@ N3 = float(input("Digite o terceiro valor: "))
 
 MEDIA = (N1 + N2 + N3) / 3
 
-print(f"O valor da soma de {N1} com {N2} é {Media}")
+print(f"O valor da Média é {Media: .2f}")
+print(f"O valor da Média é {round((N1 + N2 + N3) / 3,2)}")
