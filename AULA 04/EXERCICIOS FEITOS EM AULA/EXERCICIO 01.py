@@ -6,7 +6,11 @@ NOME = input("Digite seu nome: ")
 
 NASCIMENTO = int(input("Digite o ano de nascimento: "))
 
-IDADE_ATUAL = 2024 - NASCIMENTO
+from datetime import date
+
+ANO = date.today().year
+
+IDADE_ATUAL = ANO - NASCIMENTO
 
 
 if IDADE_ATUAL >= 18:
