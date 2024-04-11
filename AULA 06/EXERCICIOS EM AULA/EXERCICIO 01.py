@@ -2,5 +2,6 @@ contador = 0
 while(contador <= 5):
     print(contador)
     contador+= 1
-
-print(f"FIM!")
+else:
+    print(f"\nA contagem terminou!")
+print(f"\nFIM!")
