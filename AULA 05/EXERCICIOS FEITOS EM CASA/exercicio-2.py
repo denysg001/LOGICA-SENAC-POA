@@ -4,5 +4,5 @@ Modifique o programa anterior para imprimir apenas os números ímpares de 1 a 1
 
 '''
 
-for i in range(1,11,3):
+for i in range(1,11,2):
     print(i)
