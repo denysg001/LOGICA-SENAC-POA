@@ -6,7 +6,6 @@ Crie um programa que peça ao usuário dois números como entrada e imprima todo
 
 numero1 = int(input('Número Inicial: '))
 numero2 = int(input('Número Final: '))
-numero2+=1
 
 for i in range(numero1, numero2, 1):
     if i%2 != 0:
